@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Frontend-development Team</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="blog.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="d-none d-lg-block">
+                <div class="col-2 pt-1">
+                    <a class="p-2 text-muted" href="#">
+                        <image x="0" y="0" width="95" height="70" src="./img/rocket1.gif" alt="" >
+                    </a>
+                </div>
+                </div>
+                <div class="col-7 text-center"><a class="blog-header-logo text-dark " href="#">Frontend-development Team</a></div>
+                
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Подписаться</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Отправить сообщение</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                            <form id="myform" action="#" method="#" accept-charset="utf-8">
+                                <input type="text" name="contact-name" placeholder="Name*">
+                                <input type="tel" name="contact-phone" placeholder="Phone*">
+                                <input type="text" name="contact-message" placeholder="Message">
+                                <button type="submit" class="btn btn-light"><a href="mailto:khalak0747@gmail.com">Отправить</a></button>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-between">
+                <a class="p-2 text-muted" href="https://tproger.ru/tag/web/">Статьи</a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://testprovider.com/ru/catalog?id=web-frontend-developer">Тесты</a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://webref.ru/">Справочники HTML/CSS</a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://getbootstrap.ru/">Bootstrap</a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://www.codewars.com/">Задачи</a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://www.fl.ru/">Фриланс</a>
+            </nav>
+        </div>
+
+        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 font-italic">Сайт посвящён начинающим Junior Frontend-Development</h1>
+                <p class="lead my-4">Все самые насущные вопросы по Frontend-development.</p>
+                <!-- Button trigger modal -->     
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Миссия "Frontend-development Team"</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Миссия "Frontend-development Team" </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                Главная идея сайта <p><strong>"Frontend-development Team"</strong></p> - это объединение информационных ресрсов в одном месте, 
+                                для удобства поиска информации, для начинающих Junior Frontend-developers.<hr>
+                                p.s. Есть интересные предложения, пиши в обратной связи.
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-3 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-info">Вопросы и ответы на собеседовании HTML-верстальщик</strong>
+                        <p class="card-text mb-auto"><em>Для начинающих WEB-разработчиков будет полезно знать, о чем спрашивают на собеседованиях.
+                            Сюда входят более 60 вопросов и отетов.</em>
+                        </p>
+                        <a href="https://github.com/scsiiq/questions_and_answers/blob/master/README.md" class="stretched-link">
+                            <button type="button" class="btn btn-primary btn-sm">продолжить чтение</button></a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+                            <image x="0" y="0" width="205" height="260" xlink:href="./img/8.jpg"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-3 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-info">Хочешь <s>похудеть</s> учиться ИТ самостоятельно? Спроси меня как</strong>
+                        <p class="mb-auto"><em>О самообразовании в IT: "Учиться самостоятельно по-прежнему можно. Более того, вполне реально достичь при этом высоких результатов."</em></p>
+                        <a href="https://habr.com/ru/company/lanit/blog/458708/" class="stretched-link">
+                            <button type="button" class="btn btn-primary btn-sm">продолжить чтение</button></a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                            <image x="0" y="0" width="290" height="250" xlink:href="./img/9.jpg"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-3 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-info">Блог начинающего Senior Frontend-developer</strong>
+                        <p class="card-text mb-auto"><em>Блог на сайте Пикабу, о том, как начинающий разработчик готовиться к профессии
+                            Senior Frontend-developer
+                        </em>
+                        </p>
+                        <a href="https://pikabu.ru/@OWIII/time/asc" class="stretched-link">
+                            <button type="button" class="btn btn-primary btn-sm">продолжить чтение</button></a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+                            <image x="0" y="0" width="230" height="250" xlink:href="./img/front1.png"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-3 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-info">Путь в мире программирования: 25 вещей, о которых стоит знать</strong>
+                        <p class="mb-auto"><em>25 простых, но не всегда очевидных вещей, которые помогут вам, если вы только встали на тернистый путь изучения программирования</em></p>
+                        <a href="https://pikabu.ru/story/put_v_mire_programmirovaniya_25_veshchey_o_kotoryikh_stoit_znat_4932852" class="stretched-link">
+                            <button type="button" class="btn btn-primary btn-sm">продолжить чтение</button></a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                            <image x="0" y="0" width="225" height="250" xlink:href="./img/way1.png"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+                <div class="col-md-6">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-3 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-info">От нуля до героя фронтенда (Часть 1)</strong>
+                                <p class="mb-auto"><em>Этот гайд поможет вам сориентироваться в изучении фронтенд-разработки. В нем собраны учебные ресурсы, уже доказавшие свою эффективность, и объяснения</em></p>
+                                <a href="https://medium.com/russian/%D0%BE%D1%82-%D0%BD%D1%83%D0%BB%D1%8F-%D0%B4%D0%BE-%D0%B3%D0%B5%D1%80%D0%BE%D1%8F-front-enda-%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-f524d668f328" class="stretched-link">
+                                    <button type="button" class="btn btn-primary btn-sm">продолжить чтение</button></a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                                    <image x="0" y="0" width="374" height="255" xlink:href="./img/hero.png"/></svg>
+                            </div>
+                        </div>
+                    </div>
+            <div class="col-md-6">
+                <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-3 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-info">Зарплаты в ИТ в первом полугодии 2019 года</strong>
+                        <p class="card-text mb-auto"><em>Публикуем отчет по зарплатам в ИТ-индустрии на 1-е полугодие 2019. 
+                        Отчёт построен по данным калькулятора зарплат «Моего круга»</em>
+                        </p>
+                        <a href="https://habr.com/ru/company/moikrug/blog/461855/" class="stretched-link">
+                            <button type="button" class="btn btn-primary btn-sm">продолжить чтение</button></a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+                            <image x="0" y="0" width="280" height="255" xlink:href="./img/s3.png"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+
+    <footer class="blog-footer">
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-center">
+                <a class="p-2 text-muted" href="https://vk.com/id550995614"><i class="fab fa-vk"></i></a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://www.facebook.com/anatoliy.khalak?ref=bookmarks"><i class="fab fa-facebook-f"></i></a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="#"><i class="fab fa-telegram"></i></a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://stackoverflow.com/users/11817556/%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8-%D0%A5%D0%B0%D0%BB%D0%B0%D0%BA?tab=profile"><i class="fab fa-stack-overflow"></i></a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="https://github.com/scsiiq"><i class="fab fa-github"></i></a>
+                <a class="p-2 text-muted" href="#"></a>
+                <a class="p-2 text-muted" href="#"><i class="fas fa-arrow-circle-up"></i></a>
+            </nav>
+        </div>
+        <p> @2019 Все права защищены</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
